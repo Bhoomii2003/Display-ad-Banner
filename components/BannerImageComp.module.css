@@ -1,0 +1,40 @@
+/* components/BannerImageComp.module.css */
+/* Container for each banner */
+.banner {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  width: 95%; /* Adjust width as needed */
+  margin: 0 auto; /* Center the banner */
+  height: 40px; /* Adjust height as needed */
+}
+
+/* Banner image styling */
+.bannerImage {
+  width: 80%;
+  height: 40%; /* Ensure the image covers the entire height */
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+
+/* Banner content (text and edit button) */
+.bannerContent {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.editButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #0070f3;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}

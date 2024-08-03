@@ -1,0 +1,7 @@
+/* pages/index.module.css */
+.bannerContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two columns */
+  gap: 20px; /* Space between banners */
+  margin: 20px; /* Space around the container */
+}

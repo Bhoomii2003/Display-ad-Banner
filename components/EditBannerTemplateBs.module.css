@@ -1,0 +1,62 @@
+/* Bottom sheet styling */
+.editWindow {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 37%; /* Adjust width if needed */
+  max-width: 582px; /* Adjust max-width if needed */
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 15px; /* Adjust padding as needed */
+  z-index: 1000;
+  height: 77%; /* Adjust height if needed */
+}
+
+/* Bottom sheet content styling */
+.editWindowContent {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Adjust gap between elements */
+}
+
+/* Label and input styling */
+.editWindowContent label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px; /* Space between label and input */
+}
+
+.editWindowContent input,
+.editWindowContent textarea {
+  padding: 8px; /* Reduced padding */
+  border-radius: 4px; /* Smaller border radius */
+  border: 1px solid #ccc;
+  width: 100%; /* Full width of the container */
+  font-size: 14px; /* Adjust font size */
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px; /* Space between buttons */
+}
+
+.doneButton,
+.downloadButton {
+  padding: 8px 12px; /* Reduced padding */
+  border: none;
+  border-radius: 4px; /* Smaller border radius */
+  cursor: pointer;
+  font-size: 14px; /* Adjust font size */
+  color: #fff;
+}
+
+.doneButton {
+  background-color: #4CAF50; /* Green color */
+}
+
+.downloadButton {
+  background-color: #2196F3; /* Blue color */
+}
